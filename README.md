@@ -30,9 +30,11 @@ Invalid placements are rejected and the user is prompted to re-enter.
 - When a ship is destroyed, bot returns to random mode.
 
 ## How to run
-1. Install requirements: `pip install -r requirements.txt`
-2. Run: `python main.py`
-3. Follow prompts in terminal. All data files are saved into `data/`.
+1. Create virtual environment `python3 -m venv venv`
+2. Activate virtual environment `source venv/bin/activate`
+3. Install requirements: `pip install -r requirements.txt`
+4. Run: `python main.py`
+5. Follow prompts in terminal. All data files are saved into `data/`.
 
 ## Design decisions
 - CSV ship format: each row is one ship with `ship_id,size,cells`.
